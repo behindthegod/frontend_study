@@ -1,15 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import "bootstrap/dist/css/bootstrap.css";
-import {Counter} from "./components/Counter";
+import App from "./app";
 
 
 
-const App = () => {
-    return (
-        <Counter/>
-    )
-}
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<App/>)
